@@ -2,11 +2,7 @@ import stlab
 import numpy as np
 from scipy import integrate
 from matplotlib import pyplot as plt, cm, colors
-pi = np.pi
-# Mario comment
-#Variables 
-h_bar = 1.0545e-34 #J.s
-e = 1.6e-19
+from scipy import pi,hbar,e
 
 def phase_evolution (U, time,N):
 	t_list = np.linspace(0,time,N)
